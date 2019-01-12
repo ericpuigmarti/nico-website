@@ -35,6 +35,10 @@ a:visited {
 .login img{
 padding: 40px;
 }
+.left, .right{
+  width: 50%;
+  display: inline-flex;
+}
 .main {
   /* width: 600px; */
   background-size:cover;
@@ -90,8 +94,9 @@ padding: 40px;
 }
 .about {
   display: inline-block;
-width: 60%;
-padding: 30px;
+  width: 60%;
+  padding: 30px;
+  vertical-align: top;
 }
 .article {
   padding-bottom: 60px;
