@@ -1,0 +1,332 @@
+body {
+  font-size: 18px;
+}
+a:visited {
+  color: inherit;
+}
+.topnav{
+  background: #F64C72;
+  padding: 12px;
+  font-family: "Impact";
+}
+.topnav a {
+  font-size: 18px;
+  color: pink;
+}
+.topnav img {
+  max-width: 120px;
+  padding-right: 2em;
+}
+.main {
+  /* width: 600px; */
+  background-size:cover;
+  background: url(https://www.destinationitalia.com/wp-content/uploads/2017/05/eccellenza-piemonte-moleantonelliana-1920x700.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.sidebar {
+  /* background: red; */
+  float: right;
+  width: 300px;
+  position: absolute;
+  top: 160px;
+  right: 80px;
+}
+ .media {
+   align: right;
+   padding: 10px;
+   padding-right: 100px;
+   max-width: 600px;
+}
+.intro {
+  /* background: rgba(0,0,0,0.5); */
+  /* color: white; */
+  width: 600px;
+  padding: 60px 60px;
+}
+.active:hover {
+  background-color: black;
+  colour: white;
+  padding: 2px
+}
+.embedly-card{
+  float:left;
+  width:40%;
+  height:20%;
+}
+/*  */
+/*  */
+/*  */
+.container {
+  display: block;
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2em;
+  margin-bottom: 12px;
+}
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.form {
+  font-size:22px;
+  font-family: Imapct;
+}
+.about {
+  display: inline-block;
+width: 60%;
+padding: 30px;
+}
+.article {
+  padding-bottom: 60px;
+}
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#meteo{
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  /* margin-left: 100px; */
+  font-size: 30px;
+  background: #f5f6f7;
+}
+.weather {
+  text-align: center;
+  margin-top: 50px;
+  /* margin-left: 100px; */
+  font-size: 30px;
+}
+.weather h3 {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 100px;
+  float:right;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  /* width: 500px; */
+  padding: 30px 30px;
+  box-sizing: border-box: 10px;
+  border-bottom: 3px solid #e4e4e4;
+  background: #F1F1F1;
+}
+
+.degrees {
+-webkit-box-flex: 0;
+-ms-flex: 0 0 14rem;
+flex: 0 0 14rem;
+min-width: 14rem;
+font-size: 1.7rem;
+font-weight: bold;
+text-align: center;
+color: white;
+-webkit-box-ordinal-group: 3;
+-ms-flex-order: 2;
+order: 2;
+}
+.day{
+background: #F1F1F1;
+position: relative;
+border-bottom: 3px solid #e4e4e4;
+margin: 1rem 0 2rem;
+padding: 0.5rem 0 0;
+cursor: pointer;
+}
+.box{
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col-25, .col-75, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
+
+.button {
+   float:right;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #F64C72;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #5A635A;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body .login {
+  background: #572DBF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*  */
+/*  */
+/*  */
+.podcast-border {
+   border-style:solid;
+   colour: #99738E;
+   background: #99738E;
+   border-width: 8px;
+   border-bottom:12px;
+   font-size:25px;
+  font-colour: black;
+   border-colour: #99738E
+
+}
+.podcast-border:active {
+  background-colour: black;
+}
+
+#podcast li {
+  float:left;
+  font-size: 24px;
+}
+
+#podcast ul{
+  float:right
+}
+
+#podcast h3{
+   float:right;
+}

@@ -1,0 +1,60 @@
+li {
+    list-style-image
+    background-color: lightgrey;
+    width: 200px;
+    border-bottom: 5px solid red;
+    padding: 15px;
+    margin: 15px;
+}
+ol {
+   width:500px;
+}
+
+#weather {
+  float:right;
+  position: fixed;
+  top: 125px;
+  right: 4px;
+}
+  ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li1 {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+.active:hover {
+  background-color: red;
+  colour: white;
+  padding: 10px
+}
+
+.active {
+  background-color: #;
+
+}
+.list li{
+
+}
+.blockquote {
+    width:300px;
+    height:250px;
+}
+#iframe {
+     width:300px;
+     height: 300px;
+     padding: 10px;
+}
