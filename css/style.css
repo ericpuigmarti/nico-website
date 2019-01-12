@@ -1,17 +1,26 @@
 body {
   font-size: 18px;
+  margin: 0 auto;
 }
 a:visited {
   color: inherit;
 }
 .topnav{
   background: #F64C72;
-  padding: 12px;
+  padding: 20px;
   font-family: "Impact";
+  /*position: fixed;*/
+  /*width: 100%;*/
 }
 .topnav a {
   font-size: 18px;
   color: pink;
+  padding: 6px;
+}
+.active:hover {
+  background-color: black;
+  colour: white;
+  padding: 2px
 }
 .topnav img {
   max-width: 120px;
@@ -43,11 +52,6 @@ a:visited {
   /* color: white; */
   width: 600px;
   padding: 60px 60px;
-}
-.active:hover {
-  background-color: black;
-  colour: white;
-  padding: 2px
 }
 .embedly-card{
   float:left;
