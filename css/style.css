@@ -316,8 +316,8 @@ audio {
   padding: 15px;
   color: #FFFFFF;
   font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
@@ -382,22 +382,18 @@ body .login {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/*  */
-/*  */
-/*  */
 .podcast-border {
-   border-style:solid;
-   colour: #99738E;
-   background: #99738E;
-   border-width: 8px;
-   border-bottom:12px;
-   font-size:25px;
-  font-colour: black;
-   border-colour: #99738E
-
+border-style:solid;
+color: #99738E;
+background: #99738E;
+border-width: 8px;
+border-bottom:12px;
+font-size:25px;
+font-color: black;
+border-color: #99738E
 }
 .podcast-border:active {
-  background-colour: black;
+  background-color: black;
 }
 
 #podcast li {
