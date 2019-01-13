@@ -70,6 +70,9 @@ padding: 40px;
   background-repeat: no-repeat;
   background-size: auto;
 }
+.title {
+  display: flex;
+}
 audio {
   margin-top: 15px;
 }
