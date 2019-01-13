@@ -43,6 +43,9 @@ padding: 40px;
 .left img {
   max-width: 100%;
 }
+.right {
+  padding-left: 100px;
+}
 .main {
   /* width: 600px; */
   background-size:cover;
@@ -55,18 +58,15 @@ audio {
   margin-top: 15px;
 }
 .sidebar {
-  /* background: red; */
   float: right;
   width: 300px;
   position: absolute;
-  top: 160px;
+  top: 200px;
   right: 80px;
 }
  .media {
-   align: right;
-   padding: 10px;
-   padding-right: 100px;
-   max-width: 600px;
+/*   padding-right: 100px;
+   max-width: 600px;*/
 }
 .intro {
   color: white !important; 

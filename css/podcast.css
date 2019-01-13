@@ -28,11 +28,12 @@ table {
   border-bottom-colour: #ed1c40;
   border-spacing: 0;
   border: 2px solid #ed1c40;
-  width: 500px;
   margin: 50px auto;
   border-radius: .25rem;
 }
-
+table img {
+  max-height: 200px;
+}
 thead tr:first-child {
   background: #ed1c40;
   color: #fff;
@@ -65,3 +66,4 @@ tbody td {
   vertical-align: middle;
   margin-top: -4px;
 }
+
