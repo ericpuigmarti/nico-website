@@ -42,6 +42,8 @@ a:visited {
   cursor: pointer;
   float: right;
   font: 400 11px system-ui;
+  margin-top: -20px;
+  margin-right: 20px;
 }
 #back {
   padding-bottom: 20px;
