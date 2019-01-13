@@ -10,7 +10,6 @@
 
 <body>
   <title>Contact - Unito Radio Ateneo 110</title>
-  <!-- <button type="button" class="button" href="login.html">Login</button> -->
   <div class="topnav">
     <a href="http://www.unitonews.it/index.php/it" target="_blank">
     <img width="12%"   src="https://upload.wikimedia.org/wikipedia/it/thumb/4/47/Unito-logo.svg/1200px-Unito-logo.svg.png" align="left"/></a>
@@ -25,6 +24,7 @@
     <a id="login"  href="login.html">Login</a>
   </div>
 
+<div class="container">
 <div class="contact-container">
   <form action="/action_page.php">
   <div class="row">
@@ -48,7 +48,7 @@
       <label for="country">Email</label>
     </div>
     <div class="col-75">
-      <input id="Email" name="Email" placeholder= "Email">
+      <input type="text" id="email" name="email" placeholder="Email">
 
       </input>
     </div>
@@ -62,20 +62,21 @@
     </div>
   </div>
   <div class="row">
+    <div class="col-25">
+      <label for="piacuto">Ti a piacuto Queste sito </label>
+    </div>
+    <div class="col-75">
+      <input type="radio" name="like" value="si"> Si<br>
+      <input type="radio" name="like" value="no"> No<br>
+    </div>
+  </div>
+
+  <div class="row">
     <input type="submit" value="Submit">
   </div>
+
   </form>
 </div>
-<br></br>
-<h2> Ti a piacuto Queste sito </h2>
-<label class="container">Si
-  <input type="checkbox" checked="checked">
-  <span class="checkmark"></span>
-</label>
-<!-- fix to radio buttons -->
-<label class="container">No
-  <input type="checkbox">
-  <span class="checkmark"></span>
-</label>
+
 </body>
 </html>
