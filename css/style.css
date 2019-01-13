@@ -206,19 +206,6 @@ input[type=submit]:hover {
   background: #F1F1F1;
 }
 
-.degrees {
--webkit-box-flex: 0;
--ms-flex: 0 0 14rem;
-flex: 0 0 14rem;
-min-width: 14rem;
-font-size: 1.7rem;
-font-weight: bold;
-text-align: center;
-color: white;
--webkit-box-ordinal-group: 3;
--ms-flex-order: 2;
-order: 2;
-}
 .day{
 background: #F1F1F1;
 position: relative;
