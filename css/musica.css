@@ -1,8 +1,7 @@
 li {
     list-style-image
     background-color: lightgrey;
-    /*width: 200px;*/
-    border-bottom: 5px solid red;
+    border-bottom: 2px solid #ddd;
     padding: 15px;
     margin: 15px;
 }
@@ -17,18 +16,6 @@ ol {
   right: 4px;
 }
 
-ul2 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li1 {
-  float: left;
-}
-
 li a {
   display: block;
   color: white;
@@ -38,7 +25,7 @@ li a {
 }
 
 .active {
-  background-color: #;
+  /*background-color: #;*/
 
 }
 .list li{

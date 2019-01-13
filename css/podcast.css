@@ -25,9 +25,9 @@ table {
   line-height: 40px;
   border-collapse: separate;
   border-bottom: 12px;
-  border-bottom-colour: #ed1c40;
+  border-bottom-colour: #333;
   border-spacing: 0;
-  border: 2px solid #ed1c40;
+  border: 2px solid #ddd;
   margin: 50px auto;
   border-radius: .25rem;
 }
@@ -35,7 +35,7 @@ table img {
   max-height: 200px;
 }
 thead tr:first-child {
-  background: #ed1c40;
+  background: #222;
   color: #fff;
   border: none;
 }
