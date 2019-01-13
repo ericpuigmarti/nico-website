@@ -49,7 +49,7 @@ thead tr:last-child th {
 
 tbody tr:hover {
   background-color: #f2f2f2;
-  cursor: default;
+  cursor: pointer;
 }
 
 tbody tr:last-child td {

@@ -5,6 +5,13 @@ body {
 a:visited {
   color: inherit;
 }
+:hover {
+  -webkit-transition: all 0.5s linear;
+     -moz-transition: all 0.5s linear;
+      -ms-transition: all 0.5s linear;
+       -o-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+}
 .topnav{
   background: #F64C72;
   padding: 20px;
@@ -116,7 +123,11 @@ audio {
   vertical-align: top;
 }
 .article {
-  padding-bottom: 60px;
+  padding: 40px;
+}
+.article:hover {
+  background: rgba(246, 76, 114, 0.25);
+  cursor: pointer;
 }
 * {
   box-sizing: border-box;
@@ -224,6 +235,9 @@ margin-top: 6px;
 content: "";
 display: table;
 clear: both;
+}
+.article img{
+  max-width: 100%;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
