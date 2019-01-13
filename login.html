@@ -16,22 +16,24 @@
       <img width="25%" src="https://idp.unito.it/static/img/myunito.svg" alt="logo">
     </div>
       <div class="login-page container">
-      <script>
-        document.write('<a id="back" href="' + document.referrer + '">Torna al sito</a>');
-      </script>
+      <div id="back">
+        <script>
+          document.write('<a href="' + document.referrer + '">< Torna al sito</a>');
+        </script>
+      </div>
         <div class="form">
-          <form class="register-form">
+          <!-- <form class="register-form">
             <input type="text" placeholder="name"/>
             <input type="password" placeholder="password"/>
             <input type="text" placeholder="email address"/>
             <button>create</button>
             <p class="message">Already registered? <a href="#">Sign In</a></p>
-          </form>
+          </form> -->
           <form class="login-form">
             <input type="text" placeholder="Nome utente"/>
             <input type="password" placeholder="Password"/>
             <button>Accedi</button>
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
+            <p class="message">HAI GIÀ UN PROFILO?<a href="#"> REGISTRATI</a></p>
           </form>
         </div>
       </div>
