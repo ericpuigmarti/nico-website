@@ -76,6 +76,9 @@ padding: 40px;
 audio {
   margin-top: 15px;
 }
+#news-photo {
+  width: 100%;
+}
 .sidebar {
   float: right;
   width: 300px;
