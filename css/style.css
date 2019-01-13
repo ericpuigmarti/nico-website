@@ -186,6 +186,10 @@ input[type=submit]:hover {
   font-size: 30px;
   background: #f5f6f7;
 }
+#meteo img {
+  width:10%;
+  height:30%;
+}
 .weather {
   text-align: center;
   margin-top: 50px;
